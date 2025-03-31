@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/contacto.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Argentina - Contacto</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo" href="/">ARGENTINA</a>
+        <nav class="header__nav">
+          <a href="/" class="header__nav-link">Inicio</a>
+          <a href="/#historia" class="header__nav-link">Historia</a>
+          <a href="/museos.html" class="header__nav-link">Museos</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="contact-section">
+        <div class="contact-form">
+          <div class="card__header">
+            <h2 class="card__title">Envíanos un mensaje</h2>
+            <p class="card__description">
+              Completa el formulario a continuación y te responderemos a la
+              brevedad.
+            </p>
+          </div>
+          <div class="card__content">
+            <form class="form">
+              <div class="form__group">
+                <label for="nombre" class="form__label"
+                  >Nombre completo <span class="form__required">*</span></label
+                >
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  class="form__input"
+                  placeholder="Ingresa tu nombre"
+                />
+              </div>
+
+              <div class="form__group">
+                <label for="email" class="form__label"
+                  >Correo electrónico
+                  <span class="form__required">*</span></label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form__input"
+                  placeholder="tu@email.com"
+                />
+              </div>
+
+              <div class="form__group">
+                <label for="departamento" class="form__label"
+                  >Departamento</label
+                >
+                <select
+                  id="departamento"
+                  name="departamento"
+                  class="form__select"
+                >
+                  <option value="">Selecciona un departamento</option>
+                  <option value="general">Información general</option>
+                  <option value="eventos">Eventos culturales</option>
+                  <option value="museos">Museos y exposiciones</option>
+                  <option value="educacion">Educación y talleres</option>
+                  <option value="prensa">Prensa y medios</option>
+                </select>
+              </div>
+
+              <div class="form__group">
+                <label for="asunto" class="form__label">Asunto</label>
+                <input
+                  type="text"
+                  id="asunto"
+                  name="asunto"
+                  class="form__input"
+                  placeholder="¿Sobre qué nos escribes?"
+                />
+              </div>
+
+              <div class="form__group">
+                <label for="mensaje" class="form__label"
+                  >Mensaje <span class="form__required">*</span></label
+                >
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  class="form__textarea"
+                  placeholder="Escribe tu mensaje aquí..."
+                  rows="5"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="form__button">Enviar mensaje</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__grid">
+          <div>
+            <div class="footer__brand">ARGENTINA</div>
+            <p class="footer__description">
+              Preservando y difundiendo el patrimonio cultural para las
+              generaciones presentes y futuras. Nuestra misión es mantener vivas
+              las tradiciones y promover el intercambio cultural.
+            </p>
+            <div class="footer__social">
+              <a class="footer__social-link" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  width="24"
+                  height="24"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+                  ></path></svg
+              ></a>
+              <a class="footer__social-link" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  width="24"
+                  height="24"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+                  ></path>
+                  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                  <path d="M16.5 7.5l0 .01"></path></svg
+              ></a>
+              <a class="footer__social-link" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  width="24"
+                  height="24"
+                  stroke-width="2"
+                >
+                  <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                  <path
+                    d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"
+                  ></path></svg
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="footer__title">Enlaces rápidos</h3>
+            <ul class="footer__links">
+              <li><a class="footer__link" href="/">Inicio</a></li>
+              <li><a class="footer__link" href="/#historia">Historia</a></li>
+              <li>
+                <a class="footer__link" href="/#tradiciones">Tradiciones</a>
+              </li>
+              <li><a class="footer__link" href="/museos">Museos</a></li>
+              <li><a class="footer__link" href="/contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Contacto</h3>
+            <ul class="footer__contact">
+              <li>📞 +123 456 7890</li>
+              <li>📧 info@culturaviva.com</li>
+              <li>📍 Calle Cultural 123, Ciudad</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2024 CulturaViva. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
